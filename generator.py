@@ -9,7 +9,7 @@ seed3 = random.randint(1,5)
 seed4 = random.randint(1, 4)
 
 #generates segments of the title
-a = (word1[seed1-1]) 
+a = word1[seed1-1]
 b = word2[seed2-1]
 c = pt3[seed3-1]
 d = pt4[seed4-1]

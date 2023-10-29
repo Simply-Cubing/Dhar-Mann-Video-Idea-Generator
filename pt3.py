@@ -1,0 +1,1 @@
+pt3 = ["on test", "test answers", "poor boyfriend", "fat kid", "school spelling bee",  ]

@@ -1,0 +1,1 @@
+word2 = ["backstabs", "pranks", "steals", "cheats", "cheats on", "breaks", "takes", "gets", "humiliates", "catches", "accuses", "shames",  "jealous of", "ditches", "bullies"]

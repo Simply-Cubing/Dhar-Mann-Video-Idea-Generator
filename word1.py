@@ -1,0 +1,1 @@
+word1 = ["Kid", "Teacher", "Daughter", "Mean girls", "Rich mom", "Rich dad", "Adult", "Daughter", "Little sister", "Rich bride", "Spoiled brat", "Spoiled girl", "Twin", "Kid with down syndome", "Autistic kid" , "Little boy", "Karen"]

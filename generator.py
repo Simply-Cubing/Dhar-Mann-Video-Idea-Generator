@@ -13,7 +13,7 @@ root = Tk()
 root.geometry("800x500")
 root.title("dhar mann video idea generator")
 
-generate_btn_img_original = PhotoImage(file="images/generate_button.png")
+generate_btn_img_original = PhotoImage(file=path)
 generate_btn_img = generate_btn_img_original.subsample(3,3)
 
 seed0 = random.randint(0,3)
@@ -23,7 +23,7 @@ seed3 = random.randint(0,4)
 seed4 = random.randint(0, 3)
 img_seed = random.randint(0, 10)
 
-dhar_img = ImageTk.PhotoImage(Image.open(f"images/dhar_mann_{img_seed}.jpeg"))
+dhar_img = ImageTk.PhotoImage(Image.open(path))
 
 
 #generates segments of the title
@@ -51,7 +51,7 @@ def generate():
     img_seed = random.randint(0, 10)
 
     global dhar_img 
-    dhar_img = ImageTk.PhotoImage(Image.open(f"images/dhar_mann_{img_seed}.jpeg"))
+    dhar_img = ImageTk.PhotoImage(Image.open(path))
 
 
     #generates segments of the title
